@@ -20,6 +20,7 @@ header {
   width: 100%;
   top: 70vh;
   height: 80px;
+  box-shadow: 1px 3px 4px 0px gray;
 }
 
 .header-banner {
@@ -38,9 +39,9 @@ header {
   border-image-slice: 1;
 }
 
-.header-banner span {
+/* .header-banner span {
   box-shadow: 0px 0px 6px 4px #00d2ff;
-}
+} */
 
 .header-banner h1 {
   font-size: 4em;
@@ -49,8 +50,8 @@ header {
   margin: 0;
   background-color: #000;
   padding: .2em .3em .4em .2em;
-  box-shadow: inset 0px 0px 6px 4px #00d2ff;
-  border-radius: 2px;
+  /* box-shadow: inset 0px 0px 6px 4px #00d2ff;
+  border-radius: 2px; */
 }
 
 .header-banner p {
@@ -59,12 +60,10 @@ header {
   color: #fff;
   background-color: #000;
   padding: .6em 1em .8em 1em;
-  box-shadow: inset 0px 0px 6px 4px #00d2ff;
-  border-radius: 2px;
+  /* box-shadow: inset 0px 0px 6px 4px #00d2ff;
+  border-radius: 2px; */
   margin: 0;
 }
-
-
 
 nav {
   height: 80px;
@@ -83,7 +82,7 @@ nav {
 
 .nav-link {
   color: #fff !important;
-  font-weight: 300;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 1em;
 }
@@ -95,7 +94,7 @@ nav {
 }
 
 .dropdown-menu {
-  background-color: #00529C;
+  background-color: #dfdfdf;
 }
 
 .dropdown-item {
@@ -125,16 +124,18 @@ nav {
 
 
 
-footer {
-  background: linear-gradient(to right, #00d2ff, #3a7bd5)!important;
-  background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
-  display: flex;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
 
 /* Cards   */
+
+.hashtags span {
+  display: block;
+}
+
+.card {
+  box-shadow: 0px 0px 4px 1px gray;
+  border: none;
+  border-radius: none;
+}
 
 .card-img-top {
   width: 50%;
@@ -142,9 +143,34 @@ footer {
   margin:auto;
 }
 
+.card .card-body:last-child {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+
+.card-text {
+  color: white;
+}
+
+.hashtags div.col-md-3:nth-child(1) .card-body .card-title,
+.hashtags div.col-md-3:nth-child(2) .card-body .card-title {
+  color: #3a7bd5;
+}
+
+.hashtags div.col-md-3:nth-child(3) .card-body .card-title,
+.hashtags div.col-md-3:nth-child(4) .card-body .card-title {
+  color: #00d2ff;
+}
 
 
+/* Footer */
 
+footer {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5)!important;
+  background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+  display: flex;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 
 
 /* .header {
