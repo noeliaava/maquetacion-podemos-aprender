@@ -1,0 +1,259 @@
+.container-fluid {
+    padding: 2em;
+}
+
+.row {
+    align-items: center;
+    height: 75vh;
+}
+
+
+/* --------- COMMON PROPERTIES --------- */
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+}
+
+.card1-img-top,
+.card2-img-top,
+.card3-img-top,
+.card4-img-top {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card1-title,
+.card2-title,
+.card3-title {
+    color: #3a7bd5;
+    font-weight: 700;
+    font-size: 1.5em;
+} 
+
+
+/*  --------- CARD 1 --------- */
+
+.card1 {
+    border: none;
+    background-color: white;
+}
+
+.card1-body {
+    padding: .8em;
+}
+
+.card1-text {
+    color: white;
+}
+
+/*  --------- CARD 2 --------- */
+
+.card2 {
+    box-shadow: 0px 0px 4px 1px gray;
+    border: none;
+    margin: .5em;
+}
+
+
+/*  --------- CARD 3 --------- */
+.card3 {
+    background: #2e8fc5;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.card3-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card3-title {
+    color: white;
+    font-weight: 700;
+}
+
+.card3-text {
+    margin-bottom: 1em;
+    color: white;
+    font-weight: 600;
+}
+
+.card3-btn {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px #4e4e4e;
+}
+
+
+/*  --------- CARD 4 --------- */
+.card4 {
+    background-color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.card4-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card4-title {
+    color:#00d2ff;
+    font-weight: 700;
+}
+
+.card4-text {
+    color: black;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+.card4-btn {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 60%;
+    margin: auto;
+    color: #00d2ff;
+    /* box-shadow: inset 0px 0px 10px 2px #cacaca; */
+    border: 3px solid #00d2ff;
+}
+
+/*  --------- CARD 5 --------- */
+
+ .card5 {
+    background-color: white;
+    border: 3px solid #3a7bd5;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.card5-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card5-title {
+    color: #3a7bd5;
+    font-weight: 700;
+    background-color:white;
+} 
+
+.card5-btn {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px #cacaca;
+    border: 3px solid #3a7bd5;  
+}
+
+/*  --------- CARD 6 --------- */
+
+.card6-body {
+    margin-bottom: 1em;
+}
+
+.card6-title {
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+    padding: .5em;
+    box-shadow: 0px 0px 3px 1px #d4d4d4;
+    font-weight: 600;
+    color: white;
+    background-color: #3a7bd5;
+}
+
+.card6 .card1-text {
+    color:black;
+}
+
+
+/* --------- FONT COLOR --------- */
+.blue {
+    color:#3a7bd5;
+    font-weight: 700;
+}
+
+.black {
+    color: black;
+}
+
+
+/* --------- BORDERS --------- */
+.blue-border {
+    border: 2px solid #3a7bd5;
+    box-shadow: none !important;
+}
+
+.green-border {
+    border: 3px solid #00DCB5;
+    box-shadow: none !important;
+}
+
+.round-border {
+    border-radius: 6px;
+}
+
+
+/* --------- SHADOWS --------- */
+.light-shadow {
+    box-shadow: 6px 2px 6px 2px #cacaca;
+}
+
+.dark-shadow {
+    box-shadow: 0px 0px 4px 1px gray;
+}
+
+
+/* --------- GRADIENTS --------- */
+
+.gradient1-btm {
+    background: linear-gradient(to bottom, #2e8fc5, #3a7bd5);
+}
+
+.gradient2-btm {
+    background: linear-gradient(to bottom, #1bb9dd, #2e8fc5, #3a7bd5);
+}
+
+.gradient3-btm {
+    background: linear-gradient(to bottom, #00DCB5, #3a7bd5);
+}
+
+.gradient4-rgt {
+    background: linear-gradient(to right, #00DCB5, #3a7bd5);
+}
+
+
+/* --------- BACKGROUNDS --------- */
+.blue-bkg {
+    background-color: #3a7bd5;
+}
+
+.green-bkg {
+    background-color: #00DCB5;
+}
+
+.yellow-bkg {
+    background-color: #F9F871;
+}
+
+/* --------- PADDING --------- */
+.pad {
+    padding: .8em;
+}
