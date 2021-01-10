@@ -26,7 +26,9 @@
 
 .card1-title,
 .card2-title,
-.card3-title {
+.card3-title,
+.card4-title,
+.card5-title {
     color: #3a7bd5;
     font-weight: 700;
     font-size: 1.5em;
