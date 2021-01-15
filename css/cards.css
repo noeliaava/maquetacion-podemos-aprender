@@ -5,6 +5,7 @@
 .row {
     align-items: center;
     height: 75vh;
+    padding: 0px 20px;
 }
 
 
@@ -13,6 +14,7 @@
     display: flex;
     flex-direction: column;
     margin: .5em;
+    
 }
 
 .card1-img-top,
@@ -134,12 +136,13 @@
 
 /*  --------- CARD 5 --------- */
 
- .card5 {
+.card5 {
     background-color: white;
     border: 3px solid #3a7bd5;
     padding: 1em;
     border-radius: 10px;
 }
+
 
 .card5-body {
     display: flex;
@@ -254,6 +257,56 @@
 .yellow-bkg {
     background-color: #F9F871;
 }
+
+
+.card9 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    border-radius: 10px;
+    height: 60vh;    
+}
+
+
+.card8 {
+    background-color: white;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, #c31432, #240b36);
+    border-image-slice: 1;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
+
+.new {
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.card-container {
+    height: 65vh;
+    background: linear-gradient(to right, #c31432, #240b36);
+    display: flex;
+    border-radius: 12px
+}
+
+.card10 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    border-radius: 10px;
+    height: 60vh;
+    margin: auto;
+    width: 90%;
+}
+
 
 /* --------- PADDING --------- */
 .pad {
